@@ -1,5 +1,5 @@
 # 💫 About Me:
-🧑🏻‍💻I'm a software engineer with a passion for secured programming! <br>📧     Add me on LinkedIn or shoot me an email
+🧑🏻‍💻I'm an Atlanta based software engineer with a passion for secured programming! 
 
 
 ## 🌐 Socials:
