@@ -1,0 +1,209 @@
+/* Screens Resolution : 1024px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 1024px) {
+header .downlad-btn{
+		
+		margin-left: 20%;
+		float: right;
+		text-align: center;
+		margin-top: 4px;
+	}
+	.intro {
+    padding: 0px 30px 1px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 100px;
+    
+}
+.col-md-10.col-lg-8 {
+    padding-right: 0px;
+}
+}
+/* Screens Resolution : 992px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 1022px) {
+	/* ---------------------------------
+	9. COUNTER SECTION
+	--------------------------------- */
+	.container1 {text-align: left;}
+	.CertTitle{margin-top: 0px; text-align: left; padding-bottom: 10px;font-weight: 600;}
+	.counter-section{ padding: 10px 20px 20px; }
+
+	.counter{ display: inline-block; }
+	
+	.counter .desc{ text-align: left; }
+}
+
+/* Screens Resolution : 992px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 992px) {
+	
+	/* ---------------------------------
+	4. INTRO SECTION
+	--------------------------------- */
+
+	.intro-section{ padding-top: 250px; }
+	header .downlad-btn{
+		
+		margin-left: 20%;
+		float: right;
+		text-align: center;
+		margin-top: 4px;
+	}
+	.intro {
+    padding: 0px 30px 1px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 100px;
+    }
+.col-md-10.col-lg-8 {
+    padding-right: 0px;
+}
+}
+
+
+/* Screens Resolution : 767px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 767px) {
+	
+	
+	
+	/* ---------------------------------
+	1. PRIMARY STYLES
+	--------------------------------- */
+
+	p{ line-height: 1.4; }
+
+	h1{ font-size: 3em; }
+	h2{ font-size: 2em; }
+	h3{ font-size: 1.8em; }
+
+
+	
+	/* ---------------------------------
+	2. COMMONS FOR PAGE DESIGN
+	--------------------------------- */
+
+	.section{ padding: 50px 0 0px; }
+
+	.section .heading{ margin-bottom: 30px; }
+
+	
+	/* ---------------------------------
+	4. INTRO SECTION
+	--------------------------------- */
+
+	.intro-section{ padding-top: 350px; }
+
+
+	/* ---------------------------------
+	5. PORFOLIO SECTION
+	--------------------------------- */
+
+	.portfolio-section{ padding-bottom: 0; }
+	
+	.portfolio-section .portfolioFilter{ margin: 0px 0 10px; }
+	
+	.portfolio-section .portfolioContainer{ margin-left: 0; margin-right: 0; }
+
+	.portfolio-section .p-item{ width: 50%; padding: 0 15px 0px; }
+
+	.portfolio-section .p-item{ max-width: 400px; }
+
+	
+	/* ---------------------------------
+	8. EDUCATION SECTION
+	--------------------------------- */
+	
+	.education-wrapper:after,
+	.education-wrapper .education:after{ display: none; }
+
+}
+
+/* Screens Resolution : 575px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 575px) {
+	header{ position: absolute; top: 0px; left: 0; right: 0; z-index: 100; }
+	
+	/* ---------------------------------
+	1. PRIMARY STYLES
+	--------------------------------- */
+
+	body{ font-size: 14px;  }
+	a.header-btn{ 
+	    padding-left: 18%;
+		padding-right: 16%;
+	}
+
+	/* ---------------------------------
+	5. PORFOLIO SECTION
+	--------------------------------- */
+	
+	.portfolio-section .p-item{ width: 100%; }
+	
+	
+	/* ---------------------------------
+	5. RESUME DOWNLOAD SECTION
+	--------------------------------- */
+	header .downlad-btn{
+		width: 60%;
+		margin-left: 20%;
+		margin-right: 20%;
+		text-align: center;
+		margin-top: 4px;
+	}
+}
+
+/* Screens Resolution : 479px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 479px) {
+
+
+}
+
+/* Screens Resolution : 359px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 359px) {
+	
+	/* ---------------------------------
+	3. HEADER
+	--------------------------------- */
+
+	header .heading-wrapper{  padding: 30px 20px 20px; }
+
+	header .info .icon{ font-size: 25px; }
+
+	header .info .right-area{ margin-left: 35px; }
+
+}
+
+/* Screens Resolution : 290px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 290px) {
+
+	
+}
+
+/* Screens Resolution : 290px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 260px) {
+	
+	/* ---------------------------------
+	3. HEADER
+	--------------------------------- */
+
+	header .heading-wrapper{  padding: 10px 15px 0px; }
+
+	header .info .icon{ font-size: 15px; }
+
+	header .info .right-area{ margin-left: 20px; }
+	
+	/* ---------------------------------
+	4. INTRO SECTION
+	--------------------------------- */
+
+	.intro .profile-img{ width: 80%; height: auto; top: 0; margin-bottom: 10px; }
+	
+	.intro{ padding: 20px 10px 0; margin-right: -15px; margin-left: -15px; }
+	
+}

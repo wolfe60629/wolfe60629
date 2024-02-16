@@ -1,0 +1,236 @@
+<html> 
+    <head>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+        <script src="./js/jquery.jslatex.js"></script>
+
+        <script>
+            $(function () {
+                $(".latex").latex();
+            });
+        </script>
+    </head>
+    <body> 
+
+        <div class="latex">
+            \documentclass[letterpaper,11pt]{article}
+            
+            \usepackage{latexsym}
+            \usepackage[empty]{fullpage}
+            \usepackage{titlesec}
+            \usepackage{marvosym}
+            \usepackage[usenames,dvipsnames]{color}
+            \usepackage{verbatim}
+            \usepackage{enumitem}
+            \usepackage[hidelinks]{hyperref}
+            \usepackage{fancyhdr}
+            \usepackage[english]{babel}
+            \usepackage{tabularx}
+            \input{glyphtounicode}
+            
+            
+            %----------FONT OPTIONS----------
+            % sans-serif
+            % \usepackage[sfdefault]{FiraSans}
+            % \usepackage[sfdefault]{roboto}
+            % \usepackage[sfdefault]{noto-sans}
+            % \usepackage[default]{sourcesanspro}
+            
+            % serif
+            % \usepackage{CormorantGaramond}
+            % \usepackage{charter}
+            
+            
+            \pagestyle{fancy}
+            \fancyhf{} % clear all header and footer fields
+            \fancyfoot{}
+            \renewcommand{\headrulewidth}{0pt}
+            \renewcommand{\footrulewidth}{0pt}
+            
+            % Adjust margins
+            \addtolength{\oddsidemargin}{-0.5in}
+            \addtolength{\evensidemargin}{-0.5in}
+            \addtolength{\textwidth}{1in}
+            \addtolength{\topmargin}{-.5in}
+            \addtolength{\textheight}{1.0in}
+            
+            \urlstyle{same}
+            
+            \raggedbottom
+            \raggedright
+            \setlength{\tabcolsep}{0in}
+            
+            % Sections formatting
+            \titleformat{\section}{
+              \vspace{-4pt}\scshape\raggedright\large
+            }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+            
+            % Ensure that generate pdf is machine readable/ATS parsable
+            \pdfgentounicode=1
+            
+            %-------------------------
+            % Custom commands
+            \newcommand{\resumeItem}[1]{
+              \item\small{
+                {#1 \vspace{-2pt}}
+              }
+            }
+            
+            \newcommand{\resumeSubheading}[4]{
+              \vspace{-2pt}\item
+                \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+                  \textbf{#1} & #2 \\
+                  \textit{\small#3} & \textit{\small #4} \\
+                \end{tabular*}\vspace{-7pt}
+            }
+            
+            \newcommand{\resumeSubSubheading}[2]{
+                \item
+                \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+                  \textit{\small#1} & \textit{\small #2} \\
+                \end{tabular*}\vspace{-7pt}
+            }
+            
+            \newcommand{\resumeProjectHeading}[2]{
+                \item
+                \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+                  \small#1 & #2 \\
+                \end{tabular*}\vspace{-7pt}
+            }
+            
+            \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+            
+            \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+            
+            \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+            \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+            \newcommand{\resumeItemListStart}{\begin{itemize}}
+            \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+            
+            %-------------------------------------------
+            %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+            
+            
+            \begin{document}
+            
+            % ----------HEADING----------
+            % \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+            %   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+            %   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+            % \end{tabular*}
+            
+            \begin{center}
+                \textbf{\Huge \scshape Jeremy Wolfe} \\ \vspace{3pt}
+                \small \href{tel:6788488304}{678-848-8304} $|$ \href{mailto:jawolfe125@gmail.com}{jawolfe125@gmail.com} $|$ 
+                \href{https://www.linkedin.com/in/jeremyawolfe/}{linkedin.com/in/jeremyawolfe} $|$
+                \href{http://www.jeremywolfe.info}{jeremywolfe.info}
+            \end{center}
+            
+            
+            %-----------EDUCATION-----------
+            \section{Education}
+              \resumeSubHeadingListStart
+                \resumeSubheading
+                  {University Of North Georgia}{September 2017 -- May 2021}
+                  {Bachelor of Science in Computer Science, Minor in Mathematics}{Dahlonega, GA}
+                  
+              \resumeSubHeadingListEnd
+            
+              %-----------PROGRAMMING SKILLS-----------
+            \section{Technical Skills}
+             \begin{itemize}[leftmargin=0.15in, label={}]
+                \small{\item{
+                 \textbf{Languages}{: Java, Python, JavaScript, SQL (Postgres, Oracle), C\#, Typescript, HTML/CSS} \\
+                 \textbf{Frameworks}{: Angular, Node.js, Spring, Spring Boot, Quarkus, JUnit, Bootstrap, Material-UI, jQuery} \\
+                 \textbf{Developer Tools}{: Git, Docker, Kubernetes, Azure DevOps, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse} \\
+                  % \textbf{Career Focus}{: Software Development Lead, Full Stack Developer, Java Developer, Angular Developer, Machine Learning}
+                }}
+             \end{itemize}
+            
+            
+            %-----------EXPERIENCE-----------
+            \section{Experience}
+              \resumeSubHeadingListStart
+            
+                \resumeSubheading
+                  {Software Development Lead}{June 2021 -- Present}
+                  {General Motors}{Roswell, GA}
+                  \resumeItemListStart
+                  \resumeItem{Developed full-stack applications using Spring Boot, Angular and Python that aid in virtual vehicle testing and production}
+                  \resumeItem{Worked with machine learning tools such as PyTorch and TensorFlow to recognize trends in vehicle safety data}
+                    \resumeItem{Contributed to projects aimed at achieving zero emissions, zero congestion, and zero traffic}
+                    \resumeItem{Promoted to a lead position within 3 months of hire to direct project timeline and provide technical direction}
+                    \resumeItem{Participated as Scrum Master and led Agile and SaFe development activities, including daily stand-ups, sprint planning, and iteration demos}
+            
+                  \resumeItemListEnd
+                  
+            % -----------Multiple Positions Heading-----------
+            %    \resumeSubSubheading
+            %     {Software Engineer I}{Oct 2014 - Sep 2016}
+            %     \resumeItemListStart
+            %        \resumeItem{Apache Beam}
+            %          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+            %     \resumeItemListEnd
+            %    \resumeSubHeadingListEnd
+            %-------------------------------------------
+            
+                \resumeSubheading
+                  {Student IT Technician}{January 2018 -- December 2020}
+                  {University of North Georgia}{Dahlonega, GA}
+                  \resumeItemListStart
+                    \resumeItem{Provided technical support to 100+ enterprise-level systems}
+                    \resumeItem{Resolved 90\% of technical issues within 2 hours to ensure uninterrupted workflow for university leadership during high-priority meetings.}
+                    \resumeItem{Assessed and troubleshoot computer problems brought by students, faculty and staff}
+                    \resumeItem{Developed automation using VBScript to reduce human error on managing video conferencing IP addresses campus wide}
+                \resumeItemListEnd
+            
+                \resumeSubheading
+                  {Technology Specialist Contractor}{January 2017 -- July 2017}
+                  {JMFamily (DataScan)}{Alpharetta, GA}
+                  \resumeItemListStart
+                    \resumeItem{While attending college I contracted for six months to fill in for an associate at the company}
+                    \resumeItem{Supported a database driven wholesale audit application by using SQL to gather data and resolve problems}
+                    \resumeItem{Wrote technical documentation that outlined the company’s current processes}
+            
+                  \resumeItemListEnd
+            
+              \resumeSubHeadingListEnd
+            
+            
+            %-----------PROJECTS-----------
+            \section{Projects}
+                \resumeSubHeadingListStart
+                  \resumeProjectHeading
+                      {\textbf{NSA Code Breaker Challenge } $|$ \emph{Python, Java, IDA Pro, Ghidra}}{August 2019 \& August 2020}
+                      \resumeItemListStart
+                        \resumeItem{Participated and achieved first place in the 110-day cybersecurity challenge for two consecutive years}
+                        \resumeItem{Learned the foundations of reverse-engineering / low-level code analysis}
+                        \resumeItem{Utilized Python and Java for brute-forcing tactics and software cracking}
+                      \resumeItemListEnd
+                  \resumeProjectHeading
+                      {\textbf{HOA Web Application} $|$ \emph{Git, Java (SpringBoot), AngularJS, Postgres SQL}}{September 2022}
+                      \resumeItemListStart
+                        \resumeItem{Collaborated with a local neighborhood's HOA to redesign and modernize their website}
+                        \resumeItem{Implemented a REST API that revolutionized the way members of the community submit requests}
+                        \resumeItem{Applied previous knowledge of Agile methodologies and facilitated regular requirements meetings with board members}
+                      \resumeItemListEnd
+            \resumeProjectHeading  
+            {\textbf{Green-Check Learning Management System} $|$ \emph{Git, NodeJS, HTML/CSS}}{April 2021}
+                      \resumeItemListStart
+                        \resumeItem{Designed a way for virtual students (k-8) to be rewarded when submitting assignments on time}
+                        \resumeItem{Collaborated with a partner using SDLC methodologies to ensure ensure product quality}
+                      \resumeItemListEnd
+                \resumeSubHeadingListEnd
+            
+            
+            
+            %
+            
+            
+            
+            %-------------------------------------------
+            \end{document}
+                    </div>
+            
+
+    </body>
+</html>

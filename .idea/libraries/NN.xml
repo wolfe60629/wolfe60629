@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="NN">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Resume/NN.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
